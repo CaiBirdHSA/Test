@@ -1,3 +1,6 @@
+该网站战点：
+https://caibirdhsa.github.io/Test/
+
 ## 香港站点可视化
 
 ![hk](./20220710/20220710.png)
