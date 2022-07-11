@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p data-v-801965cc="" class="title" style="font-size: 28px; color: rgb(64, 158, 255); text-align: center; font-weight: bold; margin: 20px 0px 40px;">
+        今日爬虫可视化页面
+</p>
+
+<script type="text/javascript">
+
+    window.onload=function()
+    
+    {
+    
+    window.requestAnimationFrame(getDate)
+    
+    }
+    
+    function getDate()
+    
+    {
+    
+    window.setTimeout(function(){
+    
+    window.requestAnimationFrame(getDate)
+    
+    },1000/2)
+    
+    var d=new Date();   
+    
+    var year=d.getFullYear()  //获取年
+    
+    var month=d.getMonth()+1;  //获取月，从 Date 对象返回月份 (0 ~ 11)，故在此处+1
+    
+    var day=d.getDay()    //获取日
+    
+    var days=d.getDate() //获取日期
+    
+    var hour=d.getHours()   //获取小时
+    
+    var minute=d.getMinutes()  //获取分钟
+    
+    var second=d.getSeconds()   //获取秒
+    
+    if(month<10) month="0"+month
+    
+    if(days<10) days="0"+days
+    
+    if(hour<10) hour="0"+hour
+    
+    if(minute<10) minute="0"+minute
+    
+    if(second<10) second="0"+second
+    
+    var week=new Array("星期日","星期一","星期二","星期三","星期四","星期五","星期六")
+    
+    var Tools=document.getElementById("Main")
+    
+    var da=year+" 年 "+month+" 月 "+days+" 日 "+week[day]+" "+hour+" : "+minute+" :"+second
+    
+    Tools.innerHTML=da
+    
+    }
+    
+</script>
+
+
+<div id="Main"></div>
+
+<p data-v-801965cc="" style="margin-bottom: 20px; font-size: 20px; background-color: #F3E03B ">
+    1、香港验潮站点可视化
+</p>
+
+<img src="./today/20220710.png" width="1300" />
+
+<p data-v-801965cc="" style="margin-bottom: 20px; font-size: 20px; background-color: #F3E03B ">
+    2、广东省降雨数据
+</p>
+
+<img src="./today/20220710_Rain.png" width="800" />
+
+<p data-v-801965cc="" style="margin-bottom: 20px; font-size: 20px; background-color: #F3E03B">
+    3、全国水质数据处理
+</p>
+
+<p data-v-801965cc="" style="margin-bottom: 20px; font-size: 16px;">
+    3.1、博罗城下（新角）
+</p>
+<img src="./today/博罗城下(新角)20220710.png" width="1200" />
+<p data-v-801965cc="" style="margin-bottom: 20px; font-size: 16px;">
+    3.2、珠海大桥
+</p>
+<img src="./today/珠海大桥20220710.png" width="1200" />
+
+<p data-v-801965cc="" style="margin-bottom: 20px; font-size: 20px; background-color: #F3E03B">
+    4、广东省主要河道断面径流
+</p>
+<img src="./today/PRE_runoff_20220710.png" width="640" />
+
+
+</body>
+</html>
