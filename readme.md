@@ -1,4 +1,4 @@
-该网站战点：
+该网站站点：
 https://caibirdhsa.github.io/Test/
 
 ## 香港站点可视化
