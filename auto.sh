@@ -3,8 +3,8 @@
 
 # git clone https://github.com/CaiBirdHSA/Test
 
-git remote set-url origin https://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@github.com/CaiBirdHSA/Web_spider_visualization.git
+# git remote set-url origin https://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@github.com/CaiBirdHSA/Web_spider_visualization.git
 
 git add *
 git commit -m "added files"
-git push
+git push -u origin https://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@github.com/CaiBirdHSA/Web_spider_visualization.git
