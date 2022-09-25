@@ -4,7 +4,7 @@ git config --global user.name "caibirdhu-linux"
 # git clone https://github.com/CaiBirdHSA/Test
 
 
-git remote origin https://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@github.com/CaiBirdHSA/Web_spider_visualization.git
+git remote set-url --add https://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@github.com/CaiBirdHSA/Web_spider_visualization.git
 # git remote add origin https://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@github.com/CaiBirdHSA/Web_spider_visualization.git
 
 git add *
